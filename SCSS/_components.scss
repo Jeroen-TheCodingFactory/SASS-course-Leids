@@ -1,0 +1,23 @@
+@use "colors";
+@use "fonts";
+
+.btn{
+    width: 17rem;
+    height: 5rem;
+    font-family: fonts.$font-josefinSans;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    color: colors.$color-primary;
+    background: transparent;
+    border: 0.1rem solid colors.$color-primary;
+    outline:none;
+    transition: 0.4s all;
+
+    &:hover{
+        cursor:pointer;
+        background: colors.$color-primary;
+        color: colors.$color-dark;
+    }
+}
+

@@ -1,0 +1,16 @@
+/* includes resets, mixins, vars */
+@use "colors";
+@use "fonts";
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    background: colors.$color-dark;
+    font-size: fonts.$font-size;
+}
+
+a:link, a:visited, a:active{
+    text-decoration: none;
+}
