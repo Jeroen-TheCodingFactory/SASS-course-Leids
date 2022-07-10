@@ -29,5 +29,8 @@
     &__copyright{
         color: colors.$color-secondary;
         font-size: 80%;
+        @include mixins.fontStyles;
+        text-transform: capitalize;
     }
 }
+ 
