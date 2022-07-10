@@ -17,7 +17,6 @@
             object-fit: cover;
         }
     }
-
     &__block {
         width: 60%;
         display: flex;
@@ -34,7 +33,6 @@
         line-height: 1.5;
         font-family: fonts.$font-josefinSans;
     }
-
     &__stars {
         color: colors.$color-primary;
         font-size: 100%;

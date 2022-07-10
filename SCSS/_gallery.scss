@@ -38,6 +38,7 @@
         transform: translateX(-100%);
         transition: 0.8s all;
 
+
         h3 {
             font-family: fonts.$font-nunito;
             @include mixins.fontStyles;
