@@ -1,0 +1,11 @@
+@mixin flexCenter{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin fontStyles{
+    font-weight: 300;
+    letter-spacing: 0.2rem;
+    text-transform: uppercase;
+}
