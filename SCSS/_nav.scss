@@ -91,3 +91,16 @@
         }
     }
 }
+
+@media screen and (max-width: 50rem) {
+    .nav{
+        &__figure {
+           display:none;
+        }  
+        
+        &__block {
+            width: 100%;
+            height: 100%;
+        }
+    }
+}
