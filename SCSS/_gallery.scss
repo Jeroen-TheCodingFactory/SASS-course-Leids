@@ -83,5 +83,8 @@
             height:30rem;
             width: calc(100% / 2);
         }
+        &__overlay{
+            display:none;
+        }
     }
 }

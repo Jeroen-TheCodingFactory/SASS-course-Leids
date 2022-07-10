@@ -4,13 +4,14 @@
 
 .header {
     width: 100%;
-    height: 100vh;
+    min-height: 100vh;
     background: linear-gradient(rgba(colors.$color-black,0.8), rgba(colors.$color-black,0.6)),url("/img/pexels-sam-lion-5709282.jpg") center no-repeat;
     background-size: cover;
     position:relative;
+    padding:2rem;
 
     &__brand{
-        height:30%;
+        height:40%;
         @include mixins.flexCenter;
         gap: 2rem;
     }
@@ -37,16 +38,17 @@
         font-size: 1.8rem;
         color: colors.$color-secondary;
         text-align:center;
-        @include mixins.fontStyles;
+        @include mixins.fontStyles; 
     }
 
     &__banner{
         @include mixins.flexCenter;
-        height:70%;
-        justify-content: flex-start;
-        gap:4rem;
+        height:60%;
+        justify-content: space-around;
+        gap:8rem;
+        margin-top:8rem;
         flex-direction: column;
-        color: colors.$color-secondary
+        color: colors.$color-secondary;
     }
 
     &__heading{
