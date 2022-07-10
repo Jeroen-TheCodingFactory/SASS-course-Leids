@@ -1,0 +1,33 @@
+@use "mixins";
+@use "fonts";
+@use "colors";
+
+.footer{
+    @include mixins.flexCenter;
+    flex-direction: column;
+    padding:2rem;
+    gap:2rem;
+
+    &__header{
+        @include mixins.flexCenter;
+        gap:2rem;
+    }
+
+    &__list{
+        @include mixins.flexCenter;
+        gap:2rem;
+    }
+    &__listItem a i{
+        color: colors.$color-primary;
+        font-size: 200%;
+        transition: 0.2s all;
+
+        &:hover{
+            color: colors.$color-secondary;
+        }
+    }
+    &__copyright{
+        color: colors.$color-primary;
+        font-size: 80%;
+    }
+}

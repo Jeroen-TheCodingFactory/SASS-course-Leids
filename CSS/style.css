@@ -195,6 +195,39 @@ li {
   object-fit: cover;
 }
 
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 2rem;
+  gap: 2rem;
+}
+.footer__header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+.footer__list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+.footer__listItem a i {
+  color: #d3ab55;
+  font-size: 200%;
+  transition: 0.2s all;
+}
+.footer__listItem a i:hover {
+  color: #bbb;
+}
+.footer__copyright {
+  color: #d3ab55;
+  font-size: 80%;
+}
+
 .btn {
   width: 17rem;
   height: 5rem;
