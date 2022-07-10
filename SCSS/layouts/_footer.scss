@@ -1,6 +1,6 @@
-@use "mixins";
-@use "fonts";
-@use "colors";
+@use "../base/mixins";
+@use "../base/fonts";
+@use "../base/colors";
 
 .footer{
     @include mixins.flexCenter;

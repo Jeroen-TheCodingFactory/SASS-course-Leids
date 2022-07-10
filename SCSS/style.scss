@@ -1,8 +1,8 @@
-@use "reset";
-@use "base";
-@use "nav";
-@use "header";
-@use "about-us";
-@use "gallery";
-@use "footer";
-@use "components";
+@use "base/reset";
+@use "base/base";
+@use "layouts/nav";
+@use "layouts/header";
+@use "layouts/about-us";
+@use "layouts/gallery";
+@use "layouts/footer";
+@use "components/components";  

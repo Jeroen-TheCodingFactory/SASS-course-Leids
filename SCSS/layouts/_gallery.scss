@@ -1,6 +1,6 @@
-@use "colors";
-@use "fonts";
-@use "mixins";
+@use "../base/mixins";
+@use "../base/fonts";
+@use "../base/colors";
 
 .gallery {
     height:100vh;
