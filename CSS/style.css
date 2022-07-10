@@ -50,15 +50,31 @@ li {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+  transition: 0.8s all;
 }
 .nav__hamburger:hover {
   cursor: pointer;
+}
+.nav__checkbox:checked ~ .nav__hamburger {
+  transform: rotate(90deg);
 }
 .nav__line {
   width: 100%;
   height: 12.5%;
   background: #d3ab55;
   border-radius: 0.5rem;
+  transition: 0.8s all;
+  transition-delay: 0.8s;
+  transform-origin: right;
+}
+.nav__checkbox:checked ~ .nav__hamburger .nav__line--first {
+  transform: rotate(-40deg);
+}
+.nav__checkbox:checked ~ .nav__hamburger .nav__line--second {
+  opacity: 0;
+}
+.nav__checkbox:checked ~ .nav__hamburger .nav__line--third {
+  transform: rotate(40deg);
 }
 .nav__expanded {
   height: 100%;
